@@ -2,9 +2,9 @@
 
 This respository holds code for MATLAB (version R2019a) to simulate the potential for nuisance and damage by earthquakes in Alberta. This code is associated with a paper titled *Earthquake iso-nuisance and iso-damage mapping for Alberta: applications for choosing magnitude thresholds to manage induced seismicity*, by Mauricio Reyes Canales, Elwyn Galloway, Steven Pawley, Javad Yusifbayov, and Greg Hartman. All authors are part of the Alberta Geological Survey.
 
-By default, the script *AB_Simulation.m* performs simulations for all of Alberta. This script relies on some other scripts in this repository. The simulations are saved in the file *simulations.map*, though this file name can be configured.
+By default, the script *AB_Simulation.m* performs simulations for all of Alberta. This script relies on some other scripts in this repository. The simulations are saved in the file *simulations.mat*, though this file name can be redefined.
 
-After simulations are complete, *AB_Mapping.m* retrieves the simulations saved in *simulations.mat* and creates maps and plots of the results. The nuisance and damage tolerance thresholds are configured in this script.
+After simulations are complete, *AB_Mapping.m* retrieves the simulations saved in *simulations.mat* and creates maps and plots of the results. The nuisance and damage tolerance thresholds used for calculation are specified in this script.
 
 ## Performing a test simulation
 
